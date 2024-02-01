@@ -1,3 +1,12 @@
+################################
+#                              #
+#         curve25519           #
+#                              #
+################################
+
+# this is the same as ECDH.sage
+# but here we use "realworld" parameters
+
 p = 2^255 - 19 
 
 FF = FiniteField(p)
